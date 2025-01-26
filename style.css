@@ -1,0 +1,49 @@
+*{
+    font-family: "Roboto";
+}
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(215, 171, 255);
+}
+form{
+    background-color: rgb(225, 255, 118);
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 500px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input, textarea{
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 20px;
+}
+button{
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(11, 99, 246, 1);
+    box-shadow: 0 5px 15px 0 rgba(11, 99, 246, 1);
+    transition: 0.5s;
+    border: none;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+button:hover {
+    transform: translate(0,-3px);
+    box-shadow: 0 20px 40px 0 rgba(11, 99, 246, 1);
+  }
+.count{
+    margin: 10px;
+}
